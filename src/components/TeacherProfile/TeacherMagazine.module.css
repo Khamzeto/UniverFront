@@ -1,0 +1,156 @@
+
+.rolesTitle{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3%;
+}
+
+.dataUsersText{
+    color: #212121;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5%;
+    margin-left: -8%;
+    padding-left: 25px;
+}
+.containerMagazine{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.dataUsersTextTeacher{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 6%;
+    padding-left: 7%;
+
+}
+.fathernameText{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0.5%;
+    padding-bottom: 0%;
+      
+}
+.groupTitle{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 4%;
+    padding-bottom: 30%;
+}
+.groupNameTitle{
+    color: #212121;
+font-family: Montserrat;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: left;
+padding-bottom: 3%;
+
+}
+.GlobalContainer{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.curatorTeacher{
+    display: flex;
+    margin-top: 7%;
+    padding-bottom: 4%;
+
+
+}
+.teachers{
+    color: #212121;
+font-family: Montserrat;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 6%;
+margin-top: 4%;
+text-align: left;
+}
+.rolesTitleGroup{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-top: 4%;
+}
+.dataUsersTextGroup{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    margin-top: 4%;
+}
+.teacherGroupContainer{
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+.inputUsername{
+    visibility: hidden;
+}
+.inputGrades{
+    position: absolute;
+    left: 100%;
+    margin-top: -7.5%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   
+}
+
+.inputSubject{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: -28%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+.buttonGrades{
+    border-radius: 0.625rem;
+    background: #3644FF;
+    font-family: Montserrat;
+    color: aliceblue;
+    width: 60%;
+
+}

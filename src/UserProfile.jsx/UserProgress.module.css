@@ -1,0 +1,121 @@
+.statistics{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-family: Montserrat;
+
+}
+
+  
+  
+
+  .visit{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 8%;
+    margin-top: 8%;
+    color: #575757;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  th{
+    color: #575757;
+font-family: Montserrat;
+font-size: 1.0625rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .lentaStatistics{
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    margin-top: -13%;
+    margin-left: 20%;
+    padding-bottom: 5%;
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+  .lentaStatistics span{
+    color: #3644FF;
+    cursor: pointer;
+  }
+  .progressContainer{
+
+
+    position: absolute;
+
+  }
+  .ProgressContainer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  }
+  .subject{
+    margin-left: -350%;
+    margin-top: 8%;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .subject span{
+    display: inline-block;
+    color: #636363;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 2%;
+  }
+  .value{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: -38%;
+    background-color: #3644FF;
+    width: 37px;
+    height: 28.5px;
+    border-radius: 60px;
+    padding-top: 8px;
+  }
+  .textStatistic{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .progressStatistics{
+    color: #3644FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -180%;
+    margin-top: -19%;
+  }
+  .progressContainery{
+    margin-top: 50%;
+  }

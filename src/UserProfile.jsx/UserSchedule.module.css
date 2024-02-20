@@ -1,0 +1,110 @@
+.titleSchedule{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2.5%;
+    position: absolute;
+    left: -130%;
+}
+
+
+.nameDayContainer{
+    padding-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.nameDay{
+    color: #3644FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    
+}
+
+
+.timeAndSubjectContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 7vw;
+    margin-left: 0%;
+    position: relative;
+
+    margin-bottom: 0.9%;
+    margin-top: 2%;
+}
+.time{
+    color: #000;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 12px;
+
+
+    
+}
+.subject{
+    color: #000;
+text-align: right;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    padding-top: 1.8%;
+    left: 280%;
+    position: absolute;
+    margin-top: 0%;
+
+
+}
+.lessonNumber{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.notSchedule{
+    color: #e10c0c;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+.notScheduleAll{
+    color: #e10c0c;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2%;
+
+}
+.GlobalScheduleContainer{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.contentSchedule{
+    margin-left: -35%;
+    margin-top: 30%;
+}

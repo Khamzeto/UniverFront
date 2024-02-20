@@ -1,0 +1,305 @@
+.newsContainer{
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    top: -4rem;
+
+}
+.newsContainerLink{
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    top: 3rem;
+    
+}
+.newsTitle{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+}
+.newsCards{
+    display: flex;
+    justify-content: space-between;
+}
+.newsImage{
+    margin-top: 11%;
+    width: 27vw;
+    height: 280px; 
+    border-radius: 8%;
+    
+}
+.newsTagsContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 15vw;
+    margin-left: 4%;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.newsTagFirst{
+    color: #3644FF;
+
+
+}
+.newsTagSecond{
+    color: #FF3636;
+
+
+}
+.newsTagThird{
+    color: #D94FCB;
+}
+.cardTitle{
+    position: absolute;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    max-width: 25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+    margin-top: 2%;
+
+}
+.cardDecription{
+    color: #454545;
+    display: inline-block;
+
+    font-family: Montserrat;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    max-width: 27vw;
+    margin-top: 28%;
+}
+@media only screen and (max-width: 767px) {
+    .newsCards{
+        display: block;
+
+    }
+    .newsImage {
+        margin-top: 11%;
+        width: 85vw;
+        height: 55vw;
+        border-radius: 8%;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    .newsTagsContainer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 40vw;
+        margin-left: 4%;
+        margin-top: 3%;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 3.5vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .cardTitle{
+        position: absolute;
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 3vw;
+        max-width: 85vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    
+    
+        margin-top: 2%;
+    
+    }
+    .cardDecription{
+        color: #454545;
+        display: inline-block;
+    
+        font-family: Montserrat;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        max-width: 80vw;
+        margin-top: 15%;
+    }
+    .newsTitle{
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 10vw;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .newsContainer{
+        position: relative;
+        margin: 0 auto;
+        max-width: 90%;
+        top: -25rem;
+    }
+}
+
+/* Стили для планшетов (ширина от 768px до 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newsCards{
+        display: block;
+
+    }
+    .newsImage {
+        margin-top: 11%;
+        width: 80vw;
+        height: 60vw;
+        border-radius: 8%;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    .newsTagsContainer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 40vw;
+        margin-left: 4%;
+        margin-top: 3%;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 3.5vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .cardTitle{
+        position: absolute;
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 3vw;
+        max-width: 85vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    
+    
+        margin-top: 2%;
+    
+    }
+    .cardDecription{
+        color: #454545;
+        display: inline-block;
+    
+        font-family: Montserrat;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        max-width: 80vw;
+        margin-top: 15%;
+    }
+    .newsTitle{
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 10vw;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .newsContainer{
+        position: relative;
+        margin: 0 auto;
+        max-width: 90%;
+        top: -15rem;
+    }
+}
+
+/* Стили для настольных компьютеров (ширина от 992px и более) */
+@media only screen and (min-width: 780px) and (max-width: 1024px) {
+.newsCards{
+    display: block;
+
+}
+.newsImage {
+    margin-top: 5%;
+    width: 80vw;
+    height: 55vw;
+    border-radius: 8%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.newsTagsContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 40vw;
+    margin-left: 4%;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.cardTitle{
+    position: absolute;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 3vw;
+    max-width: 85vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+
+    margin-top: 2%;
+
+}
+.cardDecription{
+    color: #454545;
+    display: inline-block;
+
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    max-width: 80vw;
+    margin-top: 15%;
+}
+.newsTitle{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-top: 5%;
+}
+.newsContainer{
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    top: -15rem;
+}
+}

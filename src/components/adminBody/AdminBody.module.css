@@ -1,0 +1,795 @@
+.AdminBodyContainer{
+    width: 96vw;
+    height: 55rem;
+    border-radius: 1.25rem;
+    border: 1px solid #3644FF;
+    background: rgba(54, 68, 255, 0.01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    position: relative; 
+
+
+}
+.AdminBodyLeftBg{
+    width: 19rem;
+    height: 55rem;
+    border: 1px solid #3644FF;
+    border-radius: 1.25rem;
+    position: absolute;
+    left: 0%;
+
+    transform: translateX(-0%);
+    
+}
+.AdminLeftTitle{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 13%;
+}
+.UsersContainerLeft{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    padding-top: 15%;
+    padding-left: 13.6%;
+    padding-bottom: 10%;
+}
+.EventsContainerLeft{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    padding-left: 13%;
+    padding-bottom: 10%;
+}
+.ChatContainerLeft{
+    display: flex;
+    justify-content: space-between;
+    max-width: 22.6%;
+    padding-left: 13%;
+    
+}
+.UsersTextLeft{
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2%;
+}
+.EventsTextLeft{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+    position: relative;
+    left: -34%;
+    
+
+}
+.EventsTextLeft{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+    position: relative;
+    left: 1%;
+    
+
+}
+.LeftGroups{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+    position: relative;
+    left: -33%;
+
+}
+.ChatTextLeft{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+    position: relative;
+    left: 4%;
+}
+.CenterContainer{
+    position: absolute;
+    top: 18%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+ 
+        
+}
+.CenterTextUsers{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.CenterTextGroup{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    left: -14%;
+    
+
+}
+.CenterButtons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10%;
+}
+.UserAddButton{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.UserRemoveButton{
+    cursor: pointer;
+    position: absolute;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #FF3636;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    left: 75%;
+}
+.UsersFilter{
+    margin-top: 20%;
+    display: flex;
+    margin-left: 2%;
+
+    
+}
+.UsersSelect{
+    cursor: pointer;
+    margin-left: 10%;
+    max-width: 9vw;
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    outline: none;
+    margin-top: 1%;
+}
+.UsersFilterText{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+}
+.userCardsContainer{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    margin-left: 20%;
+    margin-top: 200px;
+    overflow-x: auto;
+    align-items: flex-start;
+    align-content: center;
+
+
+    
+
+
+    
+}
+.userCard {
+    width: 12.78144rem;
+    height: 13.14663rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(125, 125, 125, 0.03);
+    margin: 2.5vw;
+    position: relative;
+}
+.userDetails{
+    cursor: pointer;
+    position: absolute;
+    left: 98%;
+    top: -5%;
+}
+.userNameMain{
+    color: #cf1212;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 4%;
+
+}
+.userName{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1%;
+}
+.userDescription{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3%;
+}
+.userLink{
+    cursor: pointer;
+    color: #3644FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 4%;
+}
+.searchUsersContainer{
+    display: flex;
+    position: absolute;
+    left: 57vw;
+    top: 85%;
+}
+.searchUsers {
+    border: none;
+    outline: none;
+    color: #212121;
+
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.modal{
+    width: 40vw;
+    height: 40em;
+
+    
+}
+.AddUserTitle{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5.4%;
+}
+.AddNameSurnameContainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 85%;
+    margin-left: 6.3%;
+    margin-top: 5%;
+    text-align: left;
+}
+.AddUserNameSurnameTitle{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AddUserNameSurnameTitle span{
+    color: #FF3636;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AddUserInput{
+    font-family: Montserrat;
+    font-size: 1.05vw;
+    color: rgba(5, 0, 0, 0.882);
+    width: 15vw;
+    height: 3.2rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    background: #FFF;
+    margin-top: 4%;
+    padding-left: 7%;
+}
+.AddUserPatronymicContainer{
+    max-width: 4vw;
+    margin-left: 9%;
+    margin-top: 3%;
+
+
+}
+.AddUserPatronymicTitle{
+    text-align: left;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.AddUserPatronymicInput{
+    width: 31.7vw;
+    height: 3.2rem;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    background: #FFF;
+    font-size: 1.05vw;
+    border-radius: 0.625rem;
+    background: #FFF;
+    margin-top: 17%;
+    padding-left: 7%;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: rgba(5, 0, 0, 0.882);
+    padding-left: 30%;
+    
+
+
+
+}
+.UsersAddSelectContainer{
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 3%;
+    position: relative;
+}
+.UsersAddSelectTitle{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.UsersAddSelect{
+    cursor: pointer;
+    width: 31.9vw;
+    height: 2.35rem;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    background: #FFF;
+    margin-top: 2%;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 3%;
+    padding-top: 3%;
+    
+}
+.UsersAddSelectIcon{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    left: 82%;
+    top: 65%;
+
+}
+
+.UsersAddSelectUl{
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    border-radius: 0.625rem;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0;
+    text-align: justify;
+    width: 33.3vw;
+    margin-top: 2%;
+    font-family: Montserrat;
+    background-color: #FFF;
+    
+     
+
+}  
+.UsersAddSelectLi:first-child {
+        border-top-left-radius: 8px; 
+        border-top-right-radius: 8px; 
+}
+      
+.UsersAddSelectLi:last-child {
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+}
+.UsersAddSelectLi {
+    padding: 1.8% 1.8% 1.8% 2.8%;
+   
+  }
+.UsersAddSelectLi:hover{
+   background-color: #3644FF;
+   min-height: 100%;
+    margin: 0; 
+    color: #FFF;  
+
+}
+.UsersAddButtonsContainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+.UsersAddButtonCancel{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #212121;
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.UsersAddButtonSuccess{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+
+}
+.loadMoreContainer{
+    position: absolute;
+    top: 92%;
+    left: 48%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.loadMoreButton{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20%;
+
+}
+.loadButtonLess{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FF3636;
+
+
+}
+.EventsContainerLeft {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+
+.EventsContainerLeft {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.EventsContainerLeft:hover {
+    text-decoration: underline;
+}
+.UsersTextLeft{
+    text-decoration: none !important;
+    
+}
+.UsersTextLeft:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.AddGroupContainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 85%;
+    margin-left: 6.3%;
+    margin-top: 5%;
+    text-align: left;
+}
+.AddGroupText{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 6%;
+}
+.AddGroupText span{
+    color: #FF3636;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AddGroupInput{
+    font-family: Montserrat;
+    font-size: 1.05vw;
+    color: rgba(5, 0, 0, 0.882);
+    width: 25vw;
+    height: 3.2rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    background: #FFF;
+    margin-top: 4%;
+    padding-left: 7%;
+
+}
+.AddGroupTitle{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10%;
+
+}
+.GroupAddButtonsContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    
+
+}
+.GroupAddButtonCancel{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #212121;
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.GroupAddButtonSuccess{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.AddUserGroupTitle{
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8%;
+    text-align: center;
+    max-width: 70%;
+    margin-left: 15%;
+
+}
+.AddUserGroupContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+    text-align: left;
+    
+
+}
+.AddUserGroupText{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5%;
+}
+.AddUserGroupText span{
+    color: #FF3636;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AddUserGroupInput{
+    font-family: Montserrat;
+    font-size: 1.05vw;
+    color: rgba(5, 0, 0, 0.882);
+    width: 25vw;
+    height: 3.2rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(54, 68, 255, 0.50);
+    background: #FFF;
+    margin-top: 4%;
+    padding-left: 7%;
+
+}
+.GroupUserAddButtonsContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 4%;
+    
+
+}
+.GroupUserAddButtonCancel{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #212121;
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.GroupUserAddButtonSuccess{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.UserAddButtonGroup{
+    cursor: pointer;
+    width: 16rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #FF3636;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 27%;
+
+}
+.UserAddButtonAdd{
+    cursor: pointer;
+    width: 8.5625rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #3644FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 22.4%;
+    
+}
